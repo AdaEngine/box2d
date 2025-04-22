@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -16,12 +16,12 @@ let package = Package(
             name: "box2d",
             path: ".",
             exclude: [
-                "shared/",
-                "samples/",
+                "shared",
+                "samples",
                 "docs",
-                "benchmark/",
-                "extern/",
-                "test/",
+                "benchmark",
+                "extern",
+                "test",
                 "build.bat",
                 "build.sh",
                 "build_emscripten.sh",
